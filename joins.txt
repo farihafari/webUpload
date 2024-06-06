@@ -1,0 +1,10 @@
+SELECT products.name as "product name"  , category.name  as "category name", brand.brand_name
+FROM products 
+INNER JOIN 
+category 
+ON
+products.c_id = category.id
+INNER JOIN
+brand
+ON
+products.b_id = brand.id

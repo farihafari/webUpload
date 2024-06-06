@@ -1,0 +1,10 @@
+/* CREATE VIEW faculty_data AS
+SELECT faculty.name AS "f_name" , subject.name AS "sub_name"
+FROM
+faculty
+INNER JOIN
+subject
+ON
+faculty.subject_id = subject.id */
+
+ SELECT * FROM faculty_data;

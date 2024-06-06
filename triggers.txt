@@ -1,0 +1,4 @@
+/* CREATE TRIGGER up_data 
+BEFORE UPDATE ON faculty
+FOR EACH ROW
+SET NEW.yearly_pay =  NEW.hourly_pay * 2080 ; */
